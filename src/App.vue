@@ -1,6 +1,6 @@
 <template>
   <!-- Step 3: use the component -->
-  <MyHeader headerString="MovieNameTest" />
+  <MyHeader headerString="MovieView" />
   <MovieBox :movies=movies />
 </template>
 
