@@ -1,17 +1,14 @@
 <template>
-  <!-- Step 3: use the component -->
   <MyHeader headerString="MovieView" />
   <MovieBox :movies=movies />
 </template>
 
 <script>
-// Step 1 : you import the component
 import MyHeader from './components/MyHeader.vue'  // page header
 import MovieBox from './components/MovieBox.vue'  // display movies from JSON
 
 export default{
   name: 'App',
-  // Step 2: register the component
   components:{
     MyHeader,
     MovieBox 
@@ -23,7 +20,8 @@ export default{
   },
   methods:{
     async fetchmovies(){
-      const res = await fetch("http://localhost:3939/movies")
+      const res = await fetch("https://movieview-backend.onrender.com/api")
+      //const res = await fetch("http://localhost:3939/movies")
       const data = await res.json()
       console.log(data)
       return data
