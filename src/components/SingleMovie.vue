@@ -5,6 +5,7 @@
     <h2>{{movie.title}}</h2>
     <h2>{{movie.year}}</h2>
     <h2>{{movie.tagline}}</h2>
+    <h2>Rated {{movie.MPAArating}}</h2>
     <h2>Metascore: {{movie.metascore}}</h2>
   </div>
 </template>
