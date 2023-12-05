@@ -6,11 +6,12 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-	  "fakejson": "npx json-server --watch -p 3939 db.json"
+    "fakejson": "npx json-server --watch -p 3939 db.json"
   },
   "dependencies": {
     "core-js": "^3.8.3",
     "json-server": "^0.17.4",
+    "mongodb": "^6.3.0",
     "vue": "^3.2.13"
   },
   "devDependencies": {

@@ -11,7 +11,7 @@ export default{
   name: 'App',
   components:{
     MyHeader,
-    MovieBox 
+    MovieBox
   },
   data(){
     return {
@@ -21,7 +21,6 @@ export default{
   methods:{
     async fetchmovies(){
       const res = await fetch("https://movieview-backend.onrender.com/api")
-      //const res = await fetch("http://localhost:3939/movies")
       const data = await res.json()
       console.log(data)
       return data
