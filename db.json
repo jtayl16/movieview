@@ -5,7 +5,8 @@
   "tagline": "The night he came home!",
   "overview": "Fifteen years after murdering his sister on Halloween Night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield, Illinois to kill again.",
   "year": 1978,
-  "metascore": 87
+  "metascore": 87,
+  "MPAArating": "R"
 },
 {
   "id": 2,
@@ -14,7 +15,8 @@
   "tagline": "The story of a nobody who saved everybody.",
   "overview": "An ordinary Lego mini-figure, mistakenly thought to be the extraordinary MasterBuilder, is recruited to join a quest to stop an evil Lego tyrant from conquering the universe.",
   "year": 2014,
-  "metascore": 83
+  "metascore": 83,
+  "MPAArating": "PG"
 },
 {
   "id": 3,
@@ -23,7 +25,8 @@
   "tagline": "The world forever changes.",
   "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
   "year": 2023,
-  "metascore": 88
+  "metascore": 88,
+  "MPAArating": "R"
 },
 {
   "id": 4,
@@ -32,7 +35,8 @@
   "tagline": "Mischief. Mayhem. Soap.",
   "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
   "year": 1999,
-  "metascore": 67
+  "metascore": 67,
+  "MPAArating": "R"
 },
 {
   "id": 5,
@@ -41,5 +45,6 @@
   "tagline": "Don't set him off.",
   "overview": "Ex-hitman John Wick comes out of retirement to track down the gangsters that took everything from him.",
   "year": 2014,
-  "metascore": 68
+  "metascore": 68,
+  "MPAArating": "R"
 }]}

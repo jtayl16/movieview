@@ -1,9 +1,11 @@
 <template>
   <!-- using boolean class definition -->
-  <div :class="movie.id%2 == 0 ? 'green':'red' ">
+  <div :class="movie.id%2 == 0 ? 'pastelgreen':'pastelred' ">
+    <img :src="movie.poster" alt="Movie poster">
     <h2>{{movie.title}}</h2>
     <h2>{{movie.year}}</h2>
     <h2>{{movie.tagline}}</h2>
+    <h2>Metascore: {{movie.metascore}}</h2>
   </div>
 </template>
 
@@ -17,11 +19,18 @@ export default{
 </script>
 
 <style scoped>
-.green {
-  background-color: green;
+img {
+  left: 20%;
+  top: 0;
+  width: 15em;
+  height: 100%;
+  position: absolute;
 }
-.red {
-  background-color: orangered !important;
+.pastelgreen {
+  background-color: #77dd77 !important;
+}
+.pastelred {
+  background-color: #ff6961 !important;
 }
 h2 {
   font-size: 1em;
@@ -32,8 +41,9 @@ h4 {
 div {
   background-color: #FFB89e;
   color: black;
-  padding: 1em;
-  text-align: center;
+  padding: 5em;
+  text-align: right;
   margin: 1em;
+  position: relative;
 }
 </style>
