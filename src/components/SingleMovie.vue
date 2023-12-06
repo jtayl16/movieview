@@ -3,11 +3,11 @@
   <div :class="movie.id%2 == 0 ? 'pastelgreen':'pastelred' ">
     <img :src="movie.poster" alt="Movie poster">
     <div class="moviedetails">
-    <h1 style="">{{movie.title}}</h1>
-    <h1>{{movie.year}}</h1>
-    <h2>{{movie.tagline}}</h2>
-    <h2>Rated {{movie.MPAArating}}</h2>
-    <h2>Metascore: {{movie.metascore}}</h2>
+      <h1 style="">{{movie.title}}</h1>
+      <h1>{{movie.year}}</h1>
+      <h2>{{movie.tagline}}</h2>
+      <h2>Rated {{movie.MPAArating}}</h2>
+      <h2>Metascore: {{movie.metascore}}</h2>
     </div>
   </div>
 </template>
